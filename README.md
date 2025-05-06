@@ -80,8 +80,16 @@ crontab -e
 
 スクリプトの実行ログは `notify.log` に記録されます。
 
-ログフォルダが存在しない場合は、以下のコマンドで作成してください：
+ログファイルが存在しない場合は、以下のコマンドで作成してください：
 
 ```bash
-mkdir -p notify.log
+touch notify.log
+```
+
+最終通知時刻のログは `last_notify.txt` に記録されます。
+
+ログファイルが存在しない場合は、以下のコマンドで作成してください：
+
+```bash
+touch last_notify.txt
 ```
