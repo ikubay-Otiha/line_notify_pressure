@@ -1,0 +1,11 @@
+[project]
+name = "line-notify-pressure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "influxdb-client>=1.48.0",
+    "requests>=2.32.3",
+]

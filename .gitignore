@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ruff_cache
+
+# Virtual environments
+.venv
+
+# env files
+.env
+
+# log files
+*.log
+last_notify.txt
+pressure_30days.txt
+
+# shell scripts
+notify.sh
+
+# query to influxdb
+query_influxdb.py
