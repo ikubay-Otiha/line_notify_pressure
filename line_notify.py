@@ -73,7 +73,7 @@ def analize_pressure_drop(
         print("夜間のため、通知をスキップします")
     elif delta_pressure < -1.0:
         if should_notify(current_jst_time):
-            text = f"気圧が急激に下がっています。気圧:{current_pressure}hPa"
+            text = f"気圧が急激に下がっています👇\n天気と頭痛に気をつけてね😉\n気圧:{current_pressure:.1f}hPa"
             send_message(text)
         else:
             print("6時間以内に通知済みのため、通知をスキップします")
