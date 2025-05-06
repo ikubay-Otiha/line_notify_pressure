@@ -96,7 +96,7 @@ wheels = [
 ]
 
 [[package]]
-name = "line-notify"
+name = "line-notify-pressure"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
